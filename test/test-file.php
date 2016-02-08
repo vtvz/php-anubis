@@ -1,6 +1,6 @@
 #!/usr/bin/php
 <?php
-require_once '../anubis.class.php';
+require_once '../Anubis.php';
 
 $src  = 'test-file.txt';
 $encrypted = 'encrypted.file';
@@ -8,7 +8,7 @@ $decrypted = 'test-file-decrypted.txt';
 
 $time = microtime(true);
 
-$cypher = new Anubis();
+$cypher = new vtvz\anubis\Anubis();
 
 //never do it if file supposed to be greater than several KB
 //$cypher->file_blocksize = filesize($src);

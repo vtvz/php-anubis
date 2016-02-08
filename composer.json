@@ -1,0 +1,34 @@
+{
+    "name": "vtvz/php-anubis",
+
+    "type": "library",
+
+    "description": "Anubis block cipher",
+    "keywords": ["yii2", "anubis"],
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/vtvz/php-anubis"
+    },
+    "authors": [
+        {
+            "name": "Vitaly Zaslavsky",
+            "email": "vtvz.ru@gmail.com"
+        },
+        {
+            "name": "kolonist",
+            "email": "developer@xinit.ru"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "vtvz\\anubis\\": ""
+        }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0-dev"
+        }
+    }
+}

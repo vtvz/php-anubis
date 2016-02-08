@@ -1,8 +1,8 @@
 #!/usr/bin/php
 <?php
-require_once '../anubis.class.php';
+require_once '../Anubis.php';
 
-$cypher = new Anubis();
+$cypher = new vtvz\anubis\Anubis();
 
 $test_vectors = explode("\n\n", file_get_contents('test-vectors.txt'));
 
